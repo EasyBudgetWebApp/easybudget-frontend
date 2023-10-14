@@ -1,5 +1,7 @@
 
 const Landing = () => {
+
+    const a = 2;
     return (<></>);
 
 }
