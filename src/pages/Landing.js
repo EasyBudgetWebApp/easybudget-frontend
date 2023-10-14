@@ -1,9 +1,6 @@
-
 const Landing = () => {
-
-    const a = 2;
-    return (<></>);
-
-}
+  return <>
+  <h1>Landing page</h1></>;
+};
 
 export default Landing;
