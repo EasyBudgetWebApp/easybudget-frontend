@@ -1,8 +1,9 @@
 import './App.css';
+import Landing from './pages/Landing.js';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <Landing></Landing>
   );
 }
 
