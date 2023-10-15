@@ -1,9 +1,10 @@
 import Wrapper from '../wrappers/LandingNavbar';
+import Logo from './Logo';
 
 const Header = () => {
     return (
         <Wrapper>
-            <h1>Hello header</h1>
+            <Logo></Logo>
         </Wrapper>
     )
 }

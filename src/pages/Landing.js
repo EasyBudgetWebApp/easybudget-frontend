@@ -1,10 +1,10 @@
 import Wrapper from "../wrappers/Landing";
-import Header from "../components/LandingNavbar";
+import Navbar from "../components/LandingNavbar";
 
 const Landing = () => {
     return (
         <Wrapper>
-            <Header></Header>
+            <Navbar></Navbar>
         </Wrapper>
     );
 }
