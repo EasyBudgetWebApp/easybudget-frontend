@@ -7,8 +7,30 @@ const Wrapper = styled.div`
 
     display: flex;
 
+    .additional_buttons {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 25.78px;
+        font-weight: bold;
+    }
+
     h1 {
         margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: var(--black);
+    }
+
+    a:hover {
+        color: var(--budget-purple);
     }
 `;
 
