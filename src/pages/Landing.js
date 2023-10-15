@@ -1,9 +1,10 @@
 import Wrapper from "../wrappers/Landing";
+import Header from "../components/LandingNavbar";
 
 const Landing = () => {
     return (
         <Wrapper>
-            <h1>Landing area!</h1>
+            <Header></Header>
         </Wrapper>
     );
 }
