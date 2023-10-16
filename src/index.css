@@ -18,9 +18,11 @@
 
   /* colors */
   --budget-purple: #3212C4;
-  --yellow: #EAA221;
+  --yellow: #FFC107;
   --black: #000000;
   --white: #FFFFFF; 
+  --blue: #D1FEFF;
+  --eb-3F51B5: #3F51B5;
 }
 
 /**
