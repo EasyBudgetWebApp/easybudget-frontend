@@ -3,9 +3,15 @@
 /* Document
    ========================================================================== */
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
 
   --roboto-font: 'Roboto';
+  --baloo-font: 'Baloo Thambi 2';
   --regular-font-size: 26px;
   --regular-font-weight: 400;
   --regular-line-height: 30.47px;

@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
     display: flex;
-    align-items: center;
-    align-self: center;
+    align-items:center;
     color: var(--budget-purple);
     width: 241px;
     height: 80px;
@@ -11,9 +10,15 @@ const Wrapper = styled.div`
     gap: 10px;
     flex-shrink: 0;
     margin-left: 64px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: var(--baloo-font);
+    line-height: 43.79px;
+    font-weight: bold;
+
     img {
-        width: 70px;
-        height: 67px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
