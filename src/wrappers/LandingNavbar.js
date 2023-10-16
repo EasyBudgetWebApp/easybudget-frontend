@@ -31,10 +31,11 @@ const Wrapper = styled.div`
 
   a {
     text-decoration: none;
+    color: var(--eb-17202A);
   }
 
   a:visited {
-    color: var(--black);
+    color: var(--eb-17202A);
   }
 
   a:hover {
