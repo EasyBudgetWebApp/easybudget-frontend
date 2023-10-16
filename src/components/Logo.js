@@ -1,4 +1,4 @@
-import logoPath from '../graphics/easy-budget-round.png';
+import logoPath from '../graphics/easy-budget-round (1).png';
 import Wrapper from '../wrappers/Logo';
 
 const Logo = () => {
