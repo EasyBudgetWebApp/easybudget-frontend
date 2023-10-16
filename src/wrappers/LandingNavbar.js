@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 140px;
   background-color: var(--eb-80CBC4);
+  flex: 0 1 140px;
+  min-height: 120px;
 
   display: flex;
   justify-content: space-between;

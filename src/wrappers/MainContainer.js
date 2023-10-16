@@ -6,6 +6,7 @@ const Wrapper = styled.div`
   height: 606px;
   background-color: var(--yellow);
   display: flex;
+  flex: 1 1 auto;
 
   .info-area {
     flex-grow: 1;
