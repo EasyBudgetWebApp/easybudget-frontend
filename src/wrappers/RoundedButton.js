@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
     font: var(--roboto-font);
+    color: var(--eb-17202A);
     font-size: 24px;
     font-weight: 500;
     border-radius: 28px;
@@ -16,6 +17,10 @@ const Wrapper = styled.div`
         background-color: var(--budget-purple);
         color: var(--yellow);
         border: none;
+    }
+
+    &.log-in {
+        background-color: var(--yellow);
     }
 `;
 

@@ -13,7 +13,7 @@ const Header = () => {
         <a href='/support-us'>Support this project</a>
       </div>
       <div className='auth_buttons'>
-        <RoundedButton label={'Log in'}></RoundedButton>
+        <RoundedButton label={'Log in'} className={'log-in'}></RoundedButton>
         <RoundedButton label={'Sign up'} className={'sign-up'}></RoundedButton>
       </div>
     </Wrapper>
