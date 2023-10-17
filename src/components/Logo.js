@@ -3,7 +3,7 @@ import Wrapper from '../wrappers/Logo';
 
 const Logo = () => {
     return (
-        <Wrapper>
+        <Wrapper className='logo'>
             <img src={logoPath}></img>
             <p>easyBudget</p>
         </Wrapper>

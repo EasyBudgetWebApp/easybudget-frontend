@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   flex-shrink: 0;
   margin-left: 64px;
 
-  p {
+  &.logo>p {
     color: var(--eb-3F51B5);
     font-family: var(--baloo-font);
     font-size: 32px;
