@@ -1,6 +1,7 @@
 import Wrapper from "../wrappers/MainContainer";
 import dragon from "../graphics/dragon-guarding-treasure.png";
 import RoundedButton from "./RoundedButton";
+import { Link } from "react-router-dom";
 
 const MainContainer = () => {
   return (
@@ -12,12 +13,16 @@ const MainContainer = () => {
           <li>Stick to a budget & Save money</li>
           <li>Visualize your financial situation</li>
         </ul>
-        <RoundedButton label='Start with a demo account' className={'demo-account'}></RoundedButton>
+        <Link to='/register'>
+          <RoundedButton
+            label="Start with a demo account"
+            className={"demo-account"}
+          ></RoundedButton>
+        </Link>
       </div>
       <div className="graphic-area">
         <img alt="dragon-protecting-trreasure" src={dragon} />
       </div>
-
     </Wrapper>
   );
 };

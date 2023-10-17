@@ -1,20 +1,28 @@
 import Wrapper from "../wrappers/LandingNavbar";
 import Logo from "./Logo";
-import RoundedButton from './RoundedButton.js';
+import RoundedButton from "./RoundedButton.js";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <Wrapper>
       <div className="additional_buttons">
-        <a href='/'>
+        <Link to="/">
           <Logo></Logo>
-        </a>
-        <a href='/about-us'>About us</a>
-        <a href='/support-us'>Support this project</a>
+        </Link>
+        <Link to="/about-us">About us</Link>
+        <Link to="/support-us">Support this project</Link>
       </div>
-      <div className='auth_buttons'>
-        <RoundedButton label={'Log in'} className={'log-in'}></RoundedButton>
-        <RoundedButton label={'Sign up'} className={'sign-up'}></RoundedButton>
+      <div className="auth_buttons">
+        <Link to="/login">
+          <RoundedButton label={"Log in"} className={"log-in"}></RoundedButton>
+        </Link>
+        <Link to="/register">
+          <RoundedButton
+            label={"Sign up"}
+            className={"sign-up"}
+          ></RoundedButton>
+        </Link>
       </div>
     </Wrapper>
   );
