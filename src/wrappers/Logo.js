@@ -8,11 +8,16 @@ const Wrapper = styled.div`
   gap: 8px;
   flex-shrink: 0;
   margin-left: 64px;
-  font-size: 32px;
-  font-weight: 500;
-  font-family: var(--baloo-font);
-  line-height: 43.79px;
-  
+
+  p {
+    color: var(--eb-3F51B5);
+    font-family: var(--baloo-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+  }
 
   img {
     width: 92px;
