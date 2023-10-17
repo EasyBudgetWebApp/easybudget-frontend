@@ -22,6 +22,7 @@ const Wrapper = styled.div`
         li {
             font-size: 24px;
             font-weight: 500;
+            color: var(--eb-17202A);
         }
     }
 
