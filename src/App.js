@@ -7,6 +7,7 @@ import RouteProtector from "./components/RouteProtector.js";
 import Login from "./pages/Login.js";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Error from "./pages/Error.js";
+import Register from "./pages/Register.js";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
     errorElement: <Error />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
   },
   {
     path: "*",
