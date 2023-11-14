@@ -3,9 +3,8 @@ import styled from "styled-components";
 const Wrapper = styled.form`
   width: 720px;
   height: 806px;
-  margin-top: 69px;
   background-color: #ffffff;
-  padding: 29px 87px 0 89px;
+  padding: 20px 104px 32px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -40,7 +39,11 @@ const Wrapper = styled.form`
       font-style: italic;
     }
 
-    a:link, a:visited, a:hover, a:active, a:focus {
+    a:link,
+    a:visited,
+    a:hover,
+    a:active,
+    a:focus {
       font-family: var(--roboto-font);
       text-decoration: none;
       color: var(--eb-17202A);
@@ -102,11 +105,13 @@ const Wrapper = styled.form`
     line-height: normal;
   }
 
-  .logo > p {
-    font-size: 24px;
-  }
-
   .logo {
+    margin: 0;
+    width: 206px;
+    height: 78px;
+    p{
+      font-size: 24px;
+    }
     img {
       width: 74px;
       height: 74px;
@@ -121,6 +126,10 @@ const Wrapper = styled.form`
     font-family: var(--roboto-font);
     font-weight: 500;
     margin-bottom: 18px;
+  }
+
+  .horizontal-delimiter {
+    padding: 0 42px;
   }
 `;
 

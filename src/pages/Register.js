@@ -3,7 +3,7 @@ import Wrapper from "../wrappers/Register";
 
 const Register = () => {
   return (
-    <Wrapper className="register-layout">
+    <Wrapper>
       <RegisterForm />
     </Wrapper>
   );

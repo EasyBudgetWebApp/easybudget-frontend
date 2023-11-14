@@ -1,11 +1,7 @@
-import Wrapper from '../wrappers/horizontalDelimiter';
+import Wrapper from "../wrappers/horizontalDelimiter";
 
 const HorizontalDelimiter = () => {
-    return (
-        <Wrapper>
-            Or
-        </Wrapper>
-    );
-}
+  return <Wrapper className="horizontal-delimiter">Or</Wrapper>;
+};
 
 export default HorizontalDelimiter;

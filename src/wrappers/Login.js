@@ -4,7 +4,9 @@ const Wrapper = styled.div`
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--eb-80CBC4);;
+    padding: 47px 335px;
     
     div {
         margin: 0;

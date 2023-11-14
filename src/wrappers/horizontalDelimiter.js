@@ -4,6 +4,7 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     width: 100%;
+    height: 23px;
     color: #616161;
     font-family: var(--roboto-font);
     font-size: 20px;
@@ -11,8 +12,9 @@ const Wrapper = styled.div`
     font-weight: 500;
     line-height: normal;
     
+    
     && {
-        margin: 18px;
+        margin: 28px;
     }
 
     &::before, &::after{
@@ -20,7 +22,14 @@ const Wrapper = styled.div`
         flex: 1;
         background-color: #616161;
         height: 1px;
-        margin: 24px;
+    }
+
+    &::before {
+        margin-right: 24px;
+    }
+
+    &::after {
+        margin-left: 24px;
     }
 `;
 
