@@ -1,9 +1,12 @@
-import Wrapper from '../wrappers/Register';
+import RegisterForm from "../components/RegisterForm";
+import Wrapper from "../wrappers/Register";
 
 const Register = () => {
-  return <Wrapper>
-    <h2>register</h2>
-  </Wrapper>
+  return (
+    <Wrapper className="register-layout">
+      <RegisterForm />
+    </Wrapper>
+  );
 };
 
 export default Register;
