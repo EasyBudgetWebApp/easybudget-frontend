@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Wrapper = styled.div`
+const Wrapper = styled.button`
     font: var(--roboto-font);
     color: var(--eb-17202A);
     font-size: 24px;
@@ -21,6 +21,10 @@ const Wrapper = styled.div`
 
     &.log-in {
         background-color: var(--yellow);
+    }
+
+    &:hover {
+        cursor: pointer;
     }
 `;
 

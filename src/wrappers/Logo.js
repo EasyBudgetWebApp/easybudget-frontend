@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   &.logo>p {
     color: var(--eb-3F51B5);
     font-family: var(--baloo-font);
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

@@ -475,3 +475,26 @@ template {
 a {
   text-decoration: none;
 }
+
+a:link, a:visited, a:hover, a:active, a:focus {
+  font-family: var(--roboto-font);
+  text-decoration: none;
+  color: var(--eb-17202A);
+}
+
+.rounded-anchor {
+  border: 1px solid black;
+  font-family: var(--roboto-font);
+  font-size: 24px;
+  font-weight: 500;
+  padding: 15px 51px;
+  border-radius: 28px;
+}
+
+.yellow-bkg {
+  background-color: var(--yellow);
+}
+
+.easyBudget-bkg{
+  background-color: var(--eb-3F51B5);
+}

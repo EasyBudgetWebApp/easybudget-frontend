@@ -4,7 +4,6 @@ import MainContainer from "../components/MainContainer";
 import Footer from "../components/LandingFooter";
 
 const Landing = () => {
-    console.log(window.location);
     return (
         <Wrapper>
             <Navbar></Navbar>

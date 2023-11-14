@@ -45,6 +45,7 @@ const Wrapper = styled.div`
     height: 58px;
     font-size: 24px;
     font-weight: 500;
+    background-color: transparent;
   }
 `;
 
