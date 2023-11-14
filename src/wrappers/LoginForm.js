@@ -70,7 +70,7 @@ const Wrapper = styled.form`
   .btn {
     font-family: var(--roboto-font);
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     width: 100%;
     background-color: var(--eb-3F51B5);
     color: var(--yellow);
