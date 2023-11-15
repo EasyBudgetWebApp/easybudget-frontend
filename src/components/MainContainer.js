@@ -1,15 +1,10 @@
 import Wrapper from "../wrappers/MainContainer";
-import dragon from "../graphics/dragon-guarding-treasure.png";
-import RoundedButton from "./RoundedButton";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+//graphic
+import dragonImage from "../graphics/dragonImage";
 
 const MainContainer = () => {
-  const navigate = useNavigate();
-
-  const clickHandler = (event) => {
-    event.preventDefault();
-    navigate('/register');
-  }
   return (
     <Wrapper>
       <div className="info-area">
@@ -19,16 +14,11 @@ const MainContainer = () => {
           <li>Stick to a budget & Save money</li>
           <li>Visualize your financial situation</li>
         </ul>
-        <RoundedButton
-          label="Start with a demo account"
-          className={"demo-account"}
-          to={'/register'}
-          onClickHandler={clickHandler}
-        ></RoundedButton>
+        <Link to="/register" className="demo-account">
+          Start with a demo account
+        </Link>
       </div>
-      <div className="graphic-area">
-        <img alt="dragon-protecting-trreasure" src={dragon} />
-      </div>
+      <div className="graphic-area">{dragonImage}</div>
     </Wrapper>
   );
 };

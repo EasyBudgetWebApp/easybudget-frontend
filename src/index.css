@@ -504,3 +504,38 @@ a:focus {
 .easyBudget-bkg {
   background-color: var(--eb-3F51B5);
 }
+
+
+/********************
+    AUTHENTICATION PAGES
+*********************/
+
+.auth-page {
+  /*dimensions*/
+  width: 100%;
+  height: 100vh;
+  min-width: min-content;
+  min-height: 900px;
+
+  /* display and position */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 47px 335px;
+
+  /* //bg-color */
+  background-color: var(--eb-80CBC4);
+
+  /* //box-sizing */
+  box-sizing: border-box;
+}
+
+/********************
+  LOADER SPINNER
+*********************/
+
+.cover-on-auth {
+  width: 720px;
+  height: 806px;
+  border-radius: 8px;
+}

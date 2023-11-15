@@ -9,8 +9,8 @@ const Error = () => {
       {brokenServer}
       <div className="message">
         <h1>Ups! Page not found...</h1>
-        <Link>
-          <RoundedButton label="Go Home" className="go-home"></RoundedButton>
+        <Link to='/landing-page' className='rounded-anchor yellow-bkg go-home'>
+          Go back home
         </Link>
       </div>
     </Wrapper>
