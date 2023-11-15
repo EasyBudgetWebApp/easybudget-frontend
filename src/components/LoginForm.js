@@ -23,10 +23,10 @@ const LoginForm = () => {
     }
 
     //retrieve auth link for google user consent authorization
-    /* useEffect(() => {
+    useEffect(() => {
         //request to http://localhost:5000/api/v1/auth/generate-google-link (nodejs backend);
         async function fetchData() {
-            const response = await fetch('http://localhost:5000/api/v1/auth/generate-google-link');
+            const response = await fetch('http://192.168.0.42:5000/api/v1/auth/generate-google-link');
             const decodedLink = await response.json();
             setLink(googleLink => {
                 googleLink = decodedLink.link;
@@ -39,9 +39,9 @@ const LoginForm = () => {
         }
         fetchData();
     }, []);
- */
-    /* if (isLoading)
-        return <h1>the app is loading</h1> */
+
+    if (isLoading)
+        return <h1>the app is loading</h1>
 
     return (
         <Wrapper>
@@ -63,7 +63,7 @@ const LoginForm = () => {
             <RoundedButton label='Continue' className={'btn'} onClickHandler={handleClick} />
             <HorizontalDelimiter />
             <div className="oauth-container">
-                {/* <Authenticator to={link}> */} <Authenticator to='/'>
+                <Authenticator to={link}> 
                     {googleIcon}
                     Continue with Google
                 </Authenticator>
