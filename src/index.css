@@ -504,3 +504,19 @@ a:focus {
 .easyBudget-bkg {
   background-color: var(--eb-3F51B5);
 }
+
+
+/******
+
+TESTING
+
+*******/
+
+
+.hide {
+  width: 0;
+}
+
+.show {
+  width: 300px;
+}

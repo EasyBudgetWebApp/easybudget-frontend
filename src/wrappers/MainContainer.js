@@ -11,6 +11,8 @@ const Wrapper = styled.div`
   .info-area {
     flex-grow: 1;
     margin: 80px 0 86px 100px;
+    display: flex;
+    flex-direction: column;
     h1 {
       font-size: 46px;
       font-family: var(--baloo-font);
@@ -21,10 +23,17 @@ const Wrapper = styled.div`
     }
 
     ul {
-      font-family: 'Roboto', sans-serif;
-      font-size: 28px;
       font-weight: 400;
       margin: 86px 0 86px 0;
+      color: var(--eb-17202A);
+      height: 7.6875rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      li {
+        font-family: var(--roboto-font);
+        font-size: 28px;
+      }
     }
   }
 
@@ -40,13 +49,23 @@ const Wrapper = styled.div`
   }
 
   .demo-account {
+    border-radius: 28px;
     border: 2.4px solid var(--eb-3F51B5);
-    width: 372px;
-    height: 58px;
-    font-size: 24px;
+    width: max-content;
+    height: max-content;
+    align-self: flex-start;
+
+    color: var(--eb-17202A);
+    font-family: var(--roboto-font);
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     font-weight: 500;
-    background-color: transparent;
+
+    padding: 13px 42px 13px 44px;
+
+    margin-left: 40px;
   }
+
 `;
 
 export default Wrapper;

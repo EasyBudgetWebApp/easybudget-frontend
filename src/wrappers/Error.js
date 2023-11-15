@@ -1,26 +1,32 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  display: flex;
+  width: 100%;
   height: 100vh;
+  display: flex;
   justify-content: center;
-  img {
-    min-width: 30vw;
-    max-width: 70vw;
+  align-items: center;
+
+  svg {
+    width: 75%;
+    min-width: 900px;
   }
+
   .message {
-    font-family: var(--baloo-font);
-    min-width: max-content;
+    display: flex;
+    width: 35%;
+    min-width: 350px;
+    flex-direction: column;
+    align-items: center;
     h1 {
-      font-weight: 100;
-      font-size: 48px;
+      font-family: var(--baloo-font);
+      font-weight: 500;
     }
-    align-self: center;
-    .go-home {
+    a {
+      width: 50%;
+      min-width: max-content;
+      text-align: center;
       border: none;
-      background-color: var(--yellow);
-      color: black;
-      width: 100%;
     }
   }
 `;
