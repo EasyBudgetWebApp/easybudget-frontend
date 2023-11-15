@@ -31,16 +31,11 @@ const Wrapper = styled.div`
   }
 
   a {
-    text-decoration: none;
-    color: var(--eb-17202A);
+    border: none;
   }
 
-  a:visited {
-    color: var(--eb-17202A);
-  }
-
-  a:hover {
-    color: var(--budget-purple);
+  a[href="/register"]{
+    color: var(--yellow);
   }
 `;
 

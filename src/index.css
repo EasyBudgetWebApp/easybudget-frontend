@@ -9,24 +9,23 @@
 }
 
 :root {
-
-  --roboto-font: 'Roboto';
-  --baloo-font: 'Baloo Thambi 2';
+  --roboto-font: "Roboto";
+  --baloo-font: "Baloo Thambi 2";
   --regular-font-size: 26px;
   --regular-font-weight: 400;
   --regular-line-height: 30.47px;
 
   /* colors */
-  --budget-purple: #3212C4;
-  --yellow: #FFC107;
+  --budget-purple: #3212c4;
+  --yellow: #ffc107;
   --black: #000000;
-  --white: #FFFFFF; 
-  --blue: #D1FEFF;
-  --eb-3F51B5: #3F51B5;
-  --eb-80CBC4: #80CBC4;
-  --eb-17202A: #17202A;
-  --eb-F9F9F9: #F9F9F9;
-  --eb-5A5A5A: #5A5A5A;
+  --white: #ffffff;
+  --blue: #d1feff;
+  --eb-3F51B5: #3f51b5;
+  --eb-80CBC4: #80cbc4;
+  --eb-17202A: #17202a;
+  --eb-F9F9F9: #f9f9f9;
+  --eb-5A5A5A: #5a5a5a;
 }
 
 /**
@@ -85,7 +84,8 @@ h1 {
 
 figcaption,
 figure,
-main { /* 1 */
+main {
+  /* 1 */
   display: block;
 }
 
@@ -280,7 +280,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -290,7 +291,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -474,4 +476,31 @@ template {
 
 a {
   text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  font-family: var(--roboto-font);
+  text-decoration: none;
+  color: var(--eb-17202A);
+}
+
+.rounded-anchor {
+  border: 1px solid black;
+  font-family: var(--roboto-font);
+  font-size: 24px;
+  font-weight: 500;
+  padding: 15px 51px;
+  border-radius: 28px;
+}
+
+.yellow-bkg {
+  background-color: var(--yellow);
+}
+
+.easyBudget-bkg {
+  background-color: var(--eb-3F51B5);
 }

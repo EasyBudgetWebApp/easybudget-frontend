@@ -14,14 +14,11 @@ const Header = () => {
         <Link to="/support-us">Support this project</Link>
       </div>
       <div className="auth_buttons">
-        <Link to="/login">
-          <RoundedButton label={"Log in"} className={"log-in"}></RoundedButton>
+        <Link className='rounded-anchor yellow-bkg' to="/login">
+          Log in
         </Link>
-        <Link to="/register">
-          <RoundedButton
-            label={"Sign up"}
-            className={"sign-up"}
-          ></RoundedButton>
+        <Link className='rounded-anchor easyBudget-bkg' to="/register">
+          Sign up
         </Link>
       </div>
     </Wrapper>
